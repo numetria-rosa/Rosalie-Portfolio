@@ -3146,6 +3146,31 @@ form .inputs-description {
   color: #b3bbc3;
 }
 
+.project-website-link {
+  color: #b3bbc3;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  word-break: break-all;
+}
+
+.project-website-link svg {
+  color: #f47510;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.project-website-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.project-website-link:hover svg {
+  color: #f47510;
+  transform: translateX(4px) translateY(-4px);
+}
+
 .project__descr p {
   font-size: 1.4rem;
   margin-bottom: 1.6rem;
